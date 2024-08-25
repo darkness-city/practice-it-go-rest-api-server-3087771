@@ -1,0 +1,7 @@
+go 1.18
+
+use (
+	./helloworld
+	./vendor/github.com/gorilla/mux
+	./vendor/github.com/mattn/go-sqlite3
+)
